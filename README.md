@@ -18,7 +18,7 @@ Only one process can access the shared queue at a time (ensuring **atomicity**).
 - **Processes**: Created using `fork()` to run producer and consumer in parallel.
 - **Queue**: Circular buffer implementation with limited size.
 
-## 🛠️ Compilation
+## Compilation
 
 To compile the program, run:
 
