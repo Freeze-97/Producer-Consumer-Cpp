@@ -1,6 +1,6 @@
-# 🛠️ Producer / Consumer with Shared Memory and Semaphores
+# Producer / Consumer with Shared Memory and Semaphores
 
-## 📚 Description
+## Description
 
 This lab demonstrates the **Producer/Consumer problem** using **shared memory** and **POSIX semaphores** in C++. The goal is to build a bounded queue (buffer) where:
 - A **producer** process generates and adds integers.
@@ -12,7 +12,7 @@ To ensure data integrity and prevent race conditions, synchronization is enforce
 
 Only one process can access the shared queue at a time (ensuring **atomicity**).
 
-## 🧪 Key Concepts
+## Key Concepts
 - **Shared Memory**: Used for communication between the producer and consumer processes.
 - **Semaphores**: Ensure mutual exclusion and synchronization between processes.
 - **Processes**: Created using `fork()` to run producer and consumer in parallel.
@@ -26,7 +26,7 @@ To compile the program, run:
 make
 ```
 
-## ▶️ Usage
+## Usage
 
 ```bash
 ./lab4 [num]
@@ -34,7 +34,7 @@ make
 
 - ***num***: (optional) Number of items to produce/consume. Defaults to 5000 if not provided.
 
-⚙️ Behavior
+Behavior
 - The producer generates random integers between 1 and 9999.
 
 - The consumer reads and discards these values.
